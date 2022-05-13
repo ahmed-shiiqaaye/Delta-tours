@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Josefin+Sans&family=Nunito&family=Oswald:wght@300;400;500;700&family=Poppins:wght@400;500&display=swap');
+@import './navbar';
+@import './showcase';
+@import './cards';
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    font-family: 'Fira Sans', sans-serif;
+}

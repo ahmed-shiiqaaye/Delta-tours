@@ -1,0 +1,356 @@
+.Cards{
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.08);
+    .container{
+        .grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            .card{
+                border-radius: 5px;
+                overflow: hidden;
+                background: white;
+                .head{
+                    height: 180px;
+                    position: relative;
+                    h3{
+                        position: absolute;
+                        bottom: 20px;
+                        left: 20px;
+                        color: white;
+                    }
+                }
+                .body{
+                    padding: 12px;
+                    p{
+                        opacity: .8;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .card-1{
+                .head{
+                    background:linear-gradient(to bottom,(rgba(0,0,0,0),rgba(0,0,0,.3) 90%)), url(https://media.istockphoto.com/photos/woman-kayaking-in-canada-picture-id172330133?b=1&k=20&m=172330133&s=170667a&w=0&h=HJfsZwOzepyL1_duTzX0Pws7aGrWKD97AQ-BGYQAIrM=) no-repeat center center/cover;
+                }
+            }
+            .card-2{
+                .head{
+                    background:linear-gradient(to bottom,(rgba(0,0,0,0),rgba(0,0,0,.33) 99%)), url(https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60)  no-repeat center center/cover;
+                }
+            }
+            .card-3{
+                .head{
+                    background:linear-gradient(to bottom,(rgba(0,0,0,0),rgba(0,0,0,.3) 99%)),  url(https://media.istockphoto.com/photos/the-chicago-riverwalk-at-daybreak-picture-id1342319754?b=1&k=20&m=1342319754&s=170667a&w=0&h=mS2foWwtwVIXZelCIYNtoU0VmzHO_ZKDJBqu_aG4BfA=)  no-repeat center center/cover;
+                }
+            }
+        }
+        .grid-two{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 25px 0;
+            gap: 20px;
+            .card{
+                border-radius: 10px;
+                height: 250px;
+                color: white;
+                padding:50px 0 0 50px;
+                h3{
+                    text-transform: capitalize;
+                    font-size: 25px;
+                    margin-bottom: 8px;
+                }
+                p{
+                    line-height: 1.6;
+                    margin-bottom: 10px;
+                }
+                .btn{
+                    padding: 10px 24px;
+                    border-radius: 24px;
+                    border: 0;
+                    outline: none;
+
+                }
+            }
+        }
+        .card-1{
+            background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)),
+                url(https://media.istockphoto.com/photos/ah-this-was-just-what-i-needed-picture-id810576038?b=1&k=20&m=810576038&s=170667a&w=0&h=acWNrtLgAvzgaHVJFIxUbWG3lO0kk66TMbGiFRF51h0=) no-repeat center center/cover;
+        }
+        .card-2{
+            background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)),
+                url(https://images.unsplash.com/photo-1533072728090-d34de21fd094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJpa2UlMjB0cmF2ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .Cards .container .grid-two .card{
+        padding-left: 10px;
+        
+    }
+}
+@media (max-width:668px) {
+    .Cards .container .grid{
+        grid-template-columns: 1fr;
+        .card{
+            .head{
+                height: 200px;
+            }
+            .body{
+                padding: 15px;
+            }
+        }
+    }
+}
+ @media (max-width:991px) {
+    .Cards .container .grid-two{
+        grid-template-columns: 1fr;
+        .card{
+            height: 300px;
+            h3{
+                font-size: 23px;
+            }
+        }
+    }
+}
+
+
+.more-cards{
+    background: rgba(0, 0, 0, 0.08);
+    padding-bottom: 20px;
+    .container{
+        .grid{
+            h2{
+               margin-bottom: 20px; 
+               text-transform: capitalize;
+               font-weight: 700;
+            }
+            .grid-wrapper{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                gap: 20px;
+                .card{
+                    height: 180px;
+                    border-radius: 10px;
+                    position: relative;
+                    padding: 10px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+                    color:white;
+                    overflow: hidden;
+                    h3{
+                        text-shadow: 0 0 4px rgba(0,0,0,1);
+                    }
+                }
+                .card-1{
+                    background: url(https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bm55JTIwYmVhY2glMjB3aXRoJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+                }
+                .card-2{
+                    background: url(https://media.istockphoto.com/photos/family-with-dog-in-the-car-picture-id1344954298?b=1&k=20&m=1344954298&s=170667a&w=0&h=w1dawkZyxi1h-lpVKdSxDHC7RVX-Fd4JuDZ6kMSxs60=) no-repeat center center/cover;
+                }
+                .card-3{
+                    background: url(https://media.istockphoto.com/photos/kids-playing-underwater-in-pool-picture-id1154945979?b=1&k=20&m=1154945979&s=170667a&w=0&h=aidQxtPjhcQGIRilKYG2zs1syxMIhmmZbN2G9vgvK90=) no-repeat center center/cover;
+                }
+                .card-4{
+                    background: url(https://media.istockphoto.com/photos/father-with-four-children-preparing-for-day-on-the-beach-picture-id1315157609?b=1&k=20&m=1315157609&s=170667a&w=0&h=6FUuAPTWnVGEedZUN0XmyVMRhLNIpQEEBxzMzi4bKqA=) no-repeat center center/cover;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .more-cards .container .grid .grid-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:768px) {
+    .more-cards .container .grid .grid-wrapper{
+        grid-template-columns:1fr;
+        .card{
+            height: 250px;
+        }
+    }
+}
+
+
+// Planing
+.plan{
+    padding: 100px 0;
+    .container{
+        max-width: 1000px;
+        .header{
+            padding-bottom: 80px;
+            position: relative;
+            p{
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: normal;
+                opacity: .85;
+            }
+            h1{
+                font-size: 45px;
+                text-transform: uppercase;
+                font-weight: 900;
+                margin-top: 10px;
+            }
+            .head-btn{
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                padding: 12px 24px;
+                border: 1px solid rgba(0,0,0,4);
+                border-radius: 24px;
+                outline: none;
+                font-size: 14px;
+                background: transparent;
+                transition: all .2s ease-in-out;
+                cursor: pointer;
+                font-weight: bold;
+                &:hover{
+                    background: dodgerblue;
+                    color: white;
+                }
+            }
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            .card{
+                overflow: hidden;
+                height: 440px;
+                img{
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 85%;
+                    object-fit: cover;
+                }
+                h1{
+                    padding: 10px;
+                    font-family: poppins;
+                    opacity: .9;
+                    font-size: 26px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .head-btn-2{
+            padding: 12px 24px;
+            border: 1px solid rgba(0,0,0,4);
+            border-radius: 24px;
+            outline: none;
+            font-size: 14px;
+            background: transparent;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all .2s ease-in-out;
+            display: none;
+            margin-top: 20px;
+            &:hover{
+                background: dodgerblue;
+                color: white;
+            }   
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .plan .container{
+        .header{
+            .head-btn{
+                display: none;
+            }
+            p{
+                font-size: 18px;
+            }
+            h1{
+                font-size: 37px;
+            }
+        }
+        .grid{
+            grid-template-columns: 1fr;
+        }
+        .head-btn-2{
+            display: block;
+        }
+    }
+}
+
+.best{
+    height: 400px;
+    padding: 100px 30px;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.8)),
+    url(https://images.unsplash.com/photo-1539576776193-2c07122e5fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80) no-repeat center center/cover;
+    .container{
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        color: white;
+        .header{
+            text-align: center;
+            background: transparent;
+            margin-bottom: 100px;
+            text-transform: capitalize;
+            h3{
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+            h1{
+                font-size: 60px;
+            }
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            row-gap: 40px;
+            line-height: 1.6;
+            .form{
+                .btn{
+                    padding: 12px 24px;
+                    border: 1px solid rgba(250,250,250,4);
+                    border-radius: 24px;
+                    outline: none;
+                    font-size: 14px;
+                    background: transparent;
+                    transition: all .2s ease-in-out;
+                    color: white;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    &:hover{
+                        background: black;
+                        color: white;
+                    }
+                }
+                p{
+                    padding-left: 10px;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }   
+            }
+        }
+    }
+}
+@media (max-width:991px) {
+    .best .container{
+        width: 100%;
+        .header{
+            margin-bottom: 50px;
+            h3{
+                font-size: 24px;
+            }
+            h1{
+                font-size: 44px;
+            }
+        }
+    }
+    .best .container .grid{
+        grid-template-columns: 1fr;
+        }
+}

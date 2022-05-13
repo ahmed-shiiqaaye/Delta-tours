@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Josefin+Sans&family=Nunito&family=Oswald:wght@300;400;500;700&family=Poppins:wght@400;500&display=swap");
+.header {
+  background: rgba(255, 255, 255, 0.214);
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .container img {
+  height: 90px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header .container .search_icon {
+  background: transparent;
+  width: 20px;
+  height: 15px;
+  padding: 6px;
+  border-radius: 24px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.header .container .search_icon i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 13px;
+  background: none;
+}
+
+.header .container .search_icon input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding: 0 5px;
+  background: transparent;
+}
+
+.header .container .search_icon:hover, .header .container .search_icon:focus {
+  width: 110px;
+}
+
+.header .container .nav_links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container .nav_links ul li {
+  margin: 0 4px;
+  padding: 0 10px;
+}
+
+.header .container .nav_links ul li a {
+  color: black;
+}
+
+.header .container .nav_links ul li a:hover {
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.header .container .menu_icon {
+  display: none;
+}
+
+.showcase {
+  width: 100%;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FwZSUyMHRvd258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FwZSUyMHRvd258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60);
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.showcase .container {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.showcase .container h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.showcase_search {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  max-width: 500px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.showcase_search i {
+  color: black;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.showcase_search input {
+  padding: 6px 10px;
+  border: rgba(0, 0, 0, 0.3);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.showcase .btn {
+  padding: 20px 38px;
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  color: #0a438b;
+  background: white;
+  border: 0;
+  border-radius: 5px;
+}
+
+@media (max-width: 968px) {
+  .showcase .container h1 {
+    font-size: 50px;
+  }
+  .showcase .container .showcase_search {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .showcase .container h1 {
+    font-size: 40px;
+  }
+}
+
+.Cards {
+  padding: 30px 0;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.Cards .container .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.Cards .container .grid .card {
+  border-radius: 5px;
+  overflow: hidden;
+  background: white;
+}
+
+.Cards .container .grid .card .head {
+  height: 180px;
+  position: relative;
+}
+
+.Cards .container .grid .card .head h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.Cards .container .grid .card .body {
+  padding: 12px;
+}
+
+.Cards .container .grid .card .body p {
+  opacity: .8;
+  font-size: 12px;
+}
+
+.Cards .container .grid .card-1 .head {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.3))), url(https://media.istockphoto.com/photos/woman-kayaking-in-canada-picture-id172330133?b=1&k=20&m=172330133&s=170667a&w=0&h=HJfsZwOzepyL1_duTzX0Pws7aGrWKD97AQ-BGYQAIrM=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) 90%), url(https://media.istockphoto.com/photos/woman-kayaking-in-canada-picture-id172330133?b=1&k=20&m=172330133&s=170667a&w=0&h=HJfsZwOzepyL1_duTzX0Pws7aGrWKD97AQ-BGYQAIrM=) no-repeat center center/cover;
+}
+
+.Cards .container .grid .card-2 .head {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(99%, rgba(0, 0, 0, 0.33))), url(https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33) 99%), url(https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9vbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+}
+
+.Cards .container .grid .card-3 .head {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(99%, rgba(0, 0, 0, 0.3))), url(https://media.istockphoto.com/photos/the-chicago-riverwalk-at-daybreak-picture-id1342319754?b=1&k=20&m=1342319754&s=170667a&w=0&h=mS2foWwtwVIXZelCIYNtoU0VmzHO_ZKDJBqu_aG4BfA=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3) 99%), url(https://media.istockphoto.com/photos/the-chicago-riverwalk-at-daybreak-picture-id1342319754?b=1&k=20&m=1342319754&s=170667a&w=0&h=mS2foWwtwVIXZelCIYNtoU0VmzHO_ZKDJBqu_aG4BfA=) no-repeat center center/cover;
+}
+
+.Cards .container .grid-two {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 25px 0;
+  gap: 20px;
+}
+
+.Cards .container .grid-two .card {
+  border-radius: 10px;
+  height: 250px;
+  color: white;
+  padding: 50px 0 0 50px;
+}
+
+.Cards .container .grid-two .card h3 {
+  text-transform: capitalize;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.Cards .container .grid-two .card p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.Cards .container .grid-two .card .btn {
+  padding: 10px 24px;
+  border-radius: 24px;
+  border: 0;
+  outline: none;
+}
+
+.Cards .container .card-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.3))), url(https://media.istockphoto.com/photos/ah-this-was-just-what-i-needed-picture-id810576038?b=1&k=20&m=810576038&s=170667a&w=0&h=acWNrtLgAvzgaHVJFIxUbWG3lO0kk66TMbGiFRF51h0=) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(https://media.istockphoto.com/photos/ah-this-was-just-what-i-needed-picture-id810576038?b=1&k=20&m=810576038&s=170667a&w=0&h=acWNrtLgAvzgaHVJFIxUbWG3lO0kk66TMbGiFRF51h0=) no-repeat center center/cover;
+}
+
+.Cards .container .card-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.3))), url(https://images.unsplash.com/photo-1533072728090-d34de21fd094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJpa2UlMjB0cmF2ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1533072728090-d34de21fd094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJpa2UlMjB0cmF2ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+}
+
+@media (max-width: 768px) {
+  .Cards .container .grid-two .card {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 668px) {
+  .Cards .container .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .Cards .container .grid .card .head {
+    height: 200px;
+  }
+  .Cards .container .grid .card .body {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .Cards .container .grid-two {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .Cards .container .grid-two .card {
+    height: 300px;
+  }
+  .Cards .container .grid-two .card h3 {
+    font-size: 23px;
+  }
+}
+
+.more-cards {
+  background: rgba(0, 0, 0, 0.08);
+  padding-bottom: 20px;
+}
+
+.more-cards .container .grid h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.more-cards .container .grid .grid-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.more-cards .container .grid .grid-wrapper .card {
+  height: 180px;
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: white;
+  overflow: hidden;
+}
+
+.more-cards .container .grid .grid-wrapper .card h3 {
+  text-shadow: 0 0 4px black;
+}
+
+.more-cards .container .grid .grid-wrapper .card-1 {
+  background: url(https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN1bm55JTIwYmVhY2glMjB3aXRoJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat center center/cover;
+}
+
+.more-cards .container .grid .grid-wrapper .card-2 {
+  background: url(https://media.istockphoto.com/photos/family-with-dog-in-the-car-picture-id1344954298?b=1&k=20&m=1344954298&s=170667a&w=0&h=w1dawkZyxi1h-lpVKdSxDHC7RVX-Fd4JuDZ6kMSxs60=) no-repeat center center/cover;
+}
+
+.more-cards .container .grid .grid-wrapper .card-3 {
+  background: url(https://media.istockphoto.com/photos/kids-playing-underwater-in-pool-picture-id1154945979?b=1&k=20&m=1154945979&s=170667a&w=0&h=aidQxtPjhcQGIRilKYG2zs1syxMIhmmZbN2G9vgvK90=) no-repeat center center/cover;
+}
+
+.more-cards .container .grid .grid-wrapper .card-4 {
+  background: url(https://media.istockphoto.com/photos/father-with-four-children-preparing-for-day-on-the-beach-picture-id1315157609?b=1&k=20&m=1315157609&s=170667a&w=0&h=6FUuAPTWnVGEedZUN0XmyVMRhLNIpQEEBxzMzi4bKqA=) no-repeat center center/cover;
+}
+
+@media (max-width: 991px) {
+  .more-cards .container .grid .grid-wrapper {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .more-cards .container .grid .grid-wrapper {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .more-cards .container .grid .grid-wrapper .card {
+    height: 250px;
+  }
+}
+
+.plan {
+  padding: 100px 0;
+}
+
+.plan .container {
+  max-width: 1000px;
+}
+
+.plan .container .header {
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.plan .container .header p {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: normal;
+  opacity: .85;
+}
+
+.plan .container .header h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.plan .container .header .head-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  padding: 12px 24px;
+  border: 1px solid black;
+  border-radius: 24px;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.plan .container .header .head-btn:hover {
+  background: dodgerblue;
+  color: white;
+}
+
+.plan .container .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.plan .container .grid .card {
+  overflow: hidden;
+  height: 440px;
+}
+
+.plan .container .grid .card img {
+  border-radius: 10px;
+  width: 100%;
+  height: 85%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.plan .container .grid .card h1 {
+  padding: 10px;
+  font-family: poppins;
+  opacity: .9;
+  font-size: 26px;
+}
+
+.plan .container .grid .card h1:hover {
+  text-decoration: underline;
+}
+
+.plan .container .head-btn-2 {
+  padding: 12px 24px;
+  border: 1px solid black;
+  border-radius: 24px;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  cursor: pointer;
+  font-weight: bold;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  display: none;
+  margin-top: 20px;
+}
+
+.plan .container .head-btn-2:hover {
+  background: dodgerblue;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .plan .container .header .head-btn {
+    display: none;
+  }
+  .plan .container .header p {
+    font-size: 18px;
+  }
+  .plan .container .header h1 {
+    font-size: 37px;
+  }
+  .plan .container .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .plan .container .head-btn-2 {
+    display: block;
+  }
+}
+
+.best {
+  height: 400px;
+  padding: 100px 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url(https://images.unsplash.com/photo-1539576776193-2c07122e5fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1539576776193-2c07122e5fee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80) no-repeat center center/cover;
+}
+
+.best .container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.best .container .header {
+  text-align: center;
+  background: transparent;
+  margin-bottom: 100px;
+  text-transform: capitalize;
+}
+
+.best .container .header h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.best .container .header h1 {
+  font-size: 60px;
+}
+
+.best .container .grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  row-gap: 40px;
+  line-height: 1.6;
+}
+
+.best .container .grid .form .btn {
+  padding: 12px 24px;
+  border: 1px solid #fafafa;
+  border-radius: 24px;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.best .container .grid .form .btn:hover {
+  background: black;
+  color: white;
+}
+
+.best .container .grid .form p {
+  padding-left: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .best .container {
+    width: 100%;
+  }
+  .best .container .header {
+    margin-bottom: 50px;
+  }
+  .best .container .header h3 {
+    font-size: 24px;
+  }
+  .best .container .header h1 {
+    font-size: 44px;
+  }
+  .best .container .grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
