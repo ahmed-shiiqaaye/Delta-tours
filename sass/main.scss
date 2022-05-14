@@ -2,11 +2,14 @@
 @import './navbar';
 @import './showcase';
 @import './cards';
+@import './footer';
+@import './/slider';
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
 }
 .container{
     max-width: 1200px;
