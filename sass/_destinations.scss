@@ -1,0 +1,151 @@
+.destinations{
+    background: url(https://images.unsplash.com/photo-1614088459293-5669fadc3448?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)  no-repeat center center/cover;
+    .container{
+
+        .input{
+            background: white;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 4px;
+        margin-top: 40px;
+        position: relative;
+        padding-right: 20px;
+        input{
+          flex: 1;
+          padding: 15px 10px;
+          border: 0;
+          outline: none;
+          font-size: 16px;
+        }
+        i{
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #000;
+        }
+    }
+    h1{
+        font-size: 40px;
+    }
+    }
+}
+
+.sportlight{
+    background: white;
+    .slider-container{
+        .card{
+            height: 350px;
+            cursor: pointer;
+            p{
+                text-transform: capitalize;
+                font-weight: bold;
+                color: rgb(53, 19, 225);
+                margin-top: 10px;
+            }
+        }
+    }
+}
+.slider-2{
+    background: white;
+    .slider-container{
+        .card{
+            cursor: pointer;
+        }
+    }
+}
+.slider-3{
+    background: white;
+    .slider-container{
+        .card{
+            height: 400px;
+            .image-container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 180px;
+                border-radius: 10px;
+                text-align: center;
+                color: rgb(250, 255, 255);
+                padding: 20px;
+                h1{
+                    text-transform: capitalize;
+                    font-family: 25px;
+                    font-family: satisfy;
+
+                }
+                p{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                }
+                span{
+                    color: gold;
+                }
+            }
+            .one{
+                background: linear-gradient(to bottom,rgba(0,0,0,.7),rgba(0,0,0,.2)),
+                url(https://media.istockphoto.com/photos/beautiful-mountainous-landscape-in-northern-india-picture-id471930071?b=1&k=20&m=471930071&s=170667a&w=0&h=5sZTFu1jkQRCZgoy1oAr-9n6NJzTH1PUV3Tcv5vw6MI=) no-repeat center center/cover;
+            }
+            .two{
+                background: linear-gradient(to bottom,rgba(0,0,0,.7),rgba(0,0,0,.2)),
+                url(https://media.istockphoto.com/photos/two-mature-women-using-raised-hands-together-in-mountains-picture-id1331062304?b=1&k=20&m=1331062304&s=170667a&w=0&h=hns9DgS_-lS3cPlBQFf8eca7PIe22ob6x_hxVYaBKl4=) no-repeat center center/cover;
+            }
+            .package{
+                margin-bottom: 0;
+                margin-top: 4px;
+                color:#359391;
+            }
+            .title-name{
+                margin-bottom: 4px;
+                margin-top: 4px;
+            }
+            .location{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                color: #359391;
+                margin-bottom: 4px;
+                font-weight: bold;
+                i{margin-right: 8px;}
+            }
+            .flex{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 8px;
+                .money{
+                    font-weight: bold;
+                }
+                .btn{
+                    padding: 6px 8px;
+                    text-transform: capitalize;
+                    border: 1px solid #359391;
+                    background: transparent;
+                    color: #359391;
+                }
+            }
+            .logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                font-family: satisfy;
+                border-top: 1px solid #359391;
+                p{
+                    color:#359391;
+                    opacity: .8;
+                }
+                img{
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                }
+            }
+        }
+        
+    }
+}
