@@ -74,3 +74,11 @@ header{
 
     }
 }
+.fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:#2f9bdb;
+    z-index: 99;
+}

@@ -12,3 +12,16 @@ sliderContainer.forEach((slider,i)=>{
         slider.scrollLeft -= sliderWidth
     })
 })
+
+let myHeader = document.querySelectorAll('header.header');
+
+myHeader.forEach((header,index)=>{
+    let headerHeight = header.getBoundingClientRect().height;
+    let windowHeight = window.pageYOffset;
+    if(windowHeight > headerHeight){
+        header.classList.add('fixed')
+    }else{
+        header.classList.remove('fixed')
+    }
+    console.log(headerHeight);
+})

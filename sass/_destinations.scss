@@ -161,3 +161,168 @@
         
     }
 }
+
+.travelers{
+    background: white;
+    .slider-title{
+        padding-left: 5vw;
+        margin-bottom: 15px;
+        h2{
+            margin: 0;
+            padding-left: 0;
+            font-family: poppins;
+            margin-bottom: 8px;
+        }
+    }
+    .slider-container{
+        .card{
+            box-sizing: border-box;
+            position: relative;
+            width: 250px;
+            .one{
+                background:linear-gradient(to bottom, rgba(0,0,0,.0),rgba(0,0,0,.5) 90%),
+                 url(https://images.unsplash.com/photo-1618155530308-c37a780555e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80) no-repeat center center/cover;
+            }
+            .two{
+                background:linear-gradient(to bottom, rgba(0,0,0,.0),rgba(0,0,0,.5) 90%),
+                 url(https://images.unsplash.com/photo-1552642986-ccb41e7059e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1100&q=60) no-repeat center center/cover;
+            }
+            .three{
+                background:linear-gradient(to bottom, rgba(0,0,0,.0),rgba(0,0,0,.5) 90%),
+                 url(https://images.unsplash.com/photo-1513633220151-48d746a2ce7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c25vdyUyMGZvcmVzdCUyMGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+            }
+            .four{
+                background:linear-gradient(to bottom, rgba(0,0,0,.0),rgba(0,0,0,.5) 90%),
+                 url(https://media.istockphoto.com/photos/indian-teenager-girl-holding-national-indian-flag-and-celebrating-picture-id1263977781?b=1&k=20&m=1263977781&s=170667a&w=0&h=Xoa2dfiUzaV8OyuOtGcGxKiDGOmU-gXGfTJDSLeGtTI=) no-repeat center center/cover;
+            }
+            .five{
+                background:linear-gradient(to bottom, rgba(0,0,0,.0),rgba(0,0,0,.5) 90%),
+                 url(https://media.istockphoto.com/photos/happy-indian-father-having-fun-with-her-daughter-outdoor-focus-on-picture-id1346157333?b=1&k=20&m=1346157333&s=170667a&w=0&h=HLM0QuwLSct9u15uZBQzIYLoGvhyMoJp-z3b54URcOw=) no-repeat center center/cover;
+            }
+            .six{
+                background:linear-gradient(to bottom, rgba(0,0,0,.0),rgba(0,0,0,.5) 90%),
+                 url(https://media.istockphoto.com/photos/dhankar-gompa-india-spiti-valley-picture-id930852852?b=1&k=20&m=930852852&s=170667a&w=0&h=CgroQLI-53l9TsJgq9zzBB6Wdqs3PghhadgKhKrHVp4=) no-repeat center center/cover;
+            }
+            .image-container{
+                padding: 15px;
+                height: 100%;
+              .text{
+                  position: absolute;
+                  bottom: 10px;
+                  left: 20px;
+                  transform: translate(-10px,-10px);
+                  h1{
+                      font-size: 20px;
+                      color: white;
+                  }
+                  p{
+                      opacity: .7;
+                      color: white;
+                      font-size: 15px;
+                  }
+              }
+
+            }
+        }
+    }
+}
+
+.travelers-2{
+    .slider-container{
+        .card{
+            width:280px;
+            height: 350px;
+            .one{
+                background: linear-gradient(to bottom,rgba(0,0,0,.6),rgba(0,0,0,.2)),
+                url(https://media.istockphoto.com/photos/master-in-desert-picture-id1024816978?b=1&k=20&m=1024816978&s=170667a&w=0&h=1TyxQC-y2ag4Zuyhqvb-ktxW59WLKCHzSBuKNFcJRao=) no-repeat center center/cover;
+            }
+            .two{
+                background: linear-gradient(to bottom,rgba(0,0,0,.6),rgba(0,0,0,.2)),
+                url(https://media.istockphoto.com/photos/kerala-most-beautiful-place-of-india-picture-id1347088244?b=1&k=20&m=1347088244&s=170667a&w=0&h=H6x-h21GPbikDoFhZ6QJQc6-baglI--yxWTkto9UFe8=) no-repeat center center/cover;
+            }
+            .three{
+                background: linear-gradient(to bottom,rgba(0,0,0,.6),rgba(0,0,0,.2)),
+                url(https://images.unsplash.com/photo-1611331384915-732d894028fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHVuamFifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+            }
+            .four{
+                background: linear-gradient(to bottom,rgba(0,0,0,.6),rgba(0,0,0,.2)),
+                url(https://media.istockphoto.com/photos/tour-boats-floating-on-the-indian-ocean-near-gateway-of-india-mumbai-picture-id1159381700?b=1&k=20&m=1159381700&s=170667a&w=0&h=LpX2FGbaATrwDwBflPmp7Qd5o-1_ntAsf7VcwP0SHak=) no-repeat center center/cover;
+            }
+            .image-container{
+                overflow: hidden;
+                box-sizing: border-box;
+                .text{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    transform: translate(0);
+                    height: 100%;
+                    overflow: hidden;
+                    width: 100%;
+                    h1{
+                        font-size: 38px;
+                        text-transform: uppercase;
+                        opacity: .8;
+                        padding-top: 10px;
+                    }
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        color: white;
+                        opacity: .7;
+                        text-transform: capitalize;
+                        font-family: satisfy;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+.vlog{
+    background: white;
+    .slider-container{
+        .card{
+            .image-container{
+                height: 180px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+                color: white;
+                line-height: 1.2;
+                font-size: 22px;
+               span{
+                    color:rgb(4, 223, 226);
+                }
+            }
+            .one{
+                background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+                url(https://images.unsplash.com/photo-1528184039930-bd03972bd974?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cml2ZXIlMjBiYW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+            }
+            .two{
+                background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+                url(https://images.unsplash.com/photo-1548509925-0e7aa59c6bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+            }
+            .three{
+                background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+                url(https://images.unsplash.com/photo-1541274387095-12117e6099dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2xkJTIwaG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+            }
+            .four{
+                background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+                url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
+            }
+            .san{
+                background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+                url(https://media.istockphoto.com/photos/buggy-ride-on-the-dunes-in-genipabu-rio-grande-do-norte-picture-id1301067685?b=1&k=20&m=1301067685&s=170667a&w=0&h=DczWuTTnQSvcXsOWcqXh6qjEAokyKn6K9L0s8m9nG5A=) no-repeat center center;
+            }
+        }
+    }
+}

@@ -783,7 +783,7 @@ header .container .menu_icon {
 }
 
 .slider {
-  padding: 50px 0;
+  padding: 20px 0;
   background: rgba(0, 0, 0, 0.04);
   position: relative;
 }
@@ -792,6 +792,8 @@ header .container .menu_icon {
   text-transform: capitalize;
   margin-bottom: 40px;
   padding-left: 5vw;
+  opacity: .8;
+  font-family: poppins;
 }
 
 .slider .slider-container {
@@ -1090,6 +1092,222 @@ header .container .menu_icon {
   width: 50px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.travelers {
+  background: white;
+}
+
+.travelers .slider-title {
+  padding-left: 5vw;
+  margin-bottom: 15px;
+}
+
+.travelers .slider-title h2 {
+  margin: 0;
+  padding-left: 0;
+  font-family: poppins;
+  margin-bottom: 8px;
+}
+
+.travelers .slider-container .card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  width: 250px;
+}
+
+.travelers .slider-container .card .one {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1618155530308-c37a780555e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%), url(https://images.unsplash.com/photo-1618155530308-c37a780555e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80) no-repeat center center/cover;
+}
+
+.travelers .slider-container .card .two {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1552642986-ccb41e7059e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1100&q=60) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%), url(https://images.unsplash.com/photo-1552642986-ccb41e7059e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1100&q=60) no-repeat center center/cover;
+}
+
+.travelers .slider-container .card .three {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.5))), url(https://images.unsplash.com/photo-1513633220151-48d746a2ce7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c25vdyUyMGZvcmVzdCUyMGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%), url(https://images.unsplash.com/photo-1513633220151-48d746a2ce7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c25vdyUyMGZvcmVzdCUyMGdpcmx8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+}
+
+.travelers .slider-container .card .four {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.5))), url(https://media.istockphoto.com/photos/indian-teenager-girl-holding-national-indian-flag-and-celebrating-picture-id1263977781?b=1&k=20&m=1263977781&s=170667a&w=0&h=Xoa2dfiUzaV8OyuOtGcGxKiDGOmU-gXGfTJDSLeGtTI=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%), url(https://media.istockphoto.com/photos/indian-teenager-girl-holding-national-indian-flag-and-celebrating-picture-id1263977781?b=1&k=20&m=1263977781&s=170667a&w=0&h=Xoa2dfiUzaV8OyuOtGcGxKiDGOmU-gXGfTJDSLeGtTI=) no-repeat center center/cover;
+}
+
+.travelers .slider-container .card .five {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.5))), url(https://media.istockphoto.com/photos/happy-indian-father-having-fun-with-her-daughter-outdoor-focus-on-picture-id1346157333?b=1&k=20&m=1346157333&s=170667a&w=0&h=HLM0QuwLSct9u15uZBQzIYLoGvhyMoJp-z3b54URcOw=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%), url(https://media.istockphoto.com/photos/happy-indian-father-having-fun-with-her-daughter-outdoor-focus-on-picture-id1346157333?b=1&k=20&m=1346157333&s=170667a&w=0&h=HLM0QuwLSct9u15uZBQzIYLoGvhyMoJp-z3b54URcOw=) no-repeat center center/cover;
+}
+
+.travelers .slider-container .card .six {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(90%, rgba(0, 0, 0, 0.5))), url(https://media.istockphoto.com/photos/dhankar-gompa-india-spiti-valley-picture-id930852852?b=1&k=20&m=930852852&s=170667a&w=0&h=CgroQLI-53l9TsJgq9zzBB6Wdqs3PghhadgKhKrHVp4=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5) 90%), url(https://media.istockphoto.com/photos/dhankar-gompa-india-spiti-valley-picture-id930852852?b=1&k=20&m=930852852&s=170667a&w=0&h=CgroQLI-53l9TsJgq9zzBB6Wdqs3PghhadgKhKrHVp4=) no-repeat center center/cover;
+}
+
+.travelers .slider-container .card .image-container {
+  padding: 15px;
+  height: 100%;
+}
+
+.travelers .slider-container .card .image-container .text {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  -webkit-transform: translate(-10px, -10px);
+          transform: translate(-10px, -10px);
+}
+
+.travelers .slider-container .card .image-container .text h1 {
+  font-size: 20px;
+  color: white;
+}
+
+.travelers .slider-container .card .image-container .text p {
+  opacity: .7;
+  color: white;
+  font-size: 15px;
+}
+
+.travelers-2 .slider-container .card {
+  width: 280px;
+  height: 350px;
+}
+
+.travelers-2 .slider-container .card .one {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://media.istockphoto.com/photos/master-in-desert-picture-id1024816978?b=1&k=20&m=1024816978&s=170667a&w=0&h=1TyxQC-y2ag4Zuyhqvb-ktxW59WLKCHzSBuKNFcJRao=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/photos/master-in-desert-picture-id1024816978?b=1&k=20&m=1024816978&s=170667a&w=0&h=1TyxQC-y2ag4Zuyhqvb-ktxW59WLKCHzSBuKNFcJRao=) no-repeat center center/cover;
+}
+
+.travelers-2 .slider-container .card .two {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://media.istockphoto.com/photos/kerala-most-beautiful-place-of-india-picture-id1347088244?b=1&k=20&m=1347088244&s=170667a&w=0&h=H6x-h21GPbikDoFhZ6QJQc6-baglI--yxWTkto9UFe8=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/photos/kerala-most-beautiful-place-of-india-picture-id1347088244?b=1&k=20&m=1347088244&s=170667a&w=0&h=H6x-h21GPbikDoFhZ6QJQc6-baglI--yxWTkto9UFe8=) no-repeat center center/cover;
+}
+
+.travelers-2 .slider-container .card .three {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://images.unsplash.com/photo-1611331384915-732d894028fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHVuamFifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1611331384915-732d894028fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHVuamFifGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+}
+
+.travelers-2 .slider-container .card .four {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://media.istockphoto.com/photos/tour-boats-floating-on-the-indian-ocean-near-gateway-of-india-mumbai-picture-id1159381700?b=1&k=20&m=1159381700&s=170667a&w=0&h=LpX2FGbaATrwDwBflPmp7Qd5o-1_ntAsf7VcwP0SHak=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/photos/tour-boats-floating-on-the-indian-ocean-near-gateway-of-india-mumbai-picture-id1159381700?b=1&k=20&m=1159381700&s=170667a&w=0&h=LpX2FGbaATrwDwBflPmp7Qd5o-1_ntAsf7VcwP0SHak=) no-repeat center center/cover;
+}
+
+.travelers-2 .slider-container .card .five {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://images.unsplash.com/photo-1614056965546-42fbe24eb36c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2FzaG1pcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1614056965546-42fbe24eb36c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2FzaG1pcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
+}
+
+.travelers-2 .slider-container .card .six {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://media.istockphoto.com/photos/annapurna-base-camp-picture-id1354961265?b=1&k=20&m=1354961265&s=170667a&w=0&h=73QinmzYHuA-636UzQjt1bWX5awejqRG8bMhHqwdijs=) no-repeat center center/cover;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/photos/annapurna-base-camp-picture-id1354961265?b=1&k=20&m=1354961265&s=170667a&w=0&h=73QinmzYHuA-636UzQjt1bWX5awejqRG8bMhHqwdijs=) no-repeat center center/cover;
+}
+
+.travelers-2 .slider-container .card .image-container {
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.travelers-2 .slider-container .card .image-container .text {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transform: translate(0);
+          transform: translate(0);
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.travelers-2 .slider-container .card .image-container .text h1 {
+  font-size: 38px;
+  text-transform: uppercase;
+  opacity: .8;
+  padding-top: 10px;
+}
+
+.travelers-2 .slider-container .card .image-container .text div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: white;
+  opacity: .7;
+  text-transform: capitalize;
+  font-family: satisfy;
+}
+
+.vlog {
+  background: white;
+}
+
+.vlog .slider-container .card .image-container {
+  height: 180px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1.2;
+  font-size: 22px;
+}
+
+.vlog .slider-container .card .image-container span {
+  color: #04dfe2;
+}
+
+.vlog .slider-container .card .one {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://images.unsplash.com/photo-1528184039930-bd03972bd974?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cml2ZXIlMjBiYW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1528184039930-bd03972bd974?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cml2ZXIlMjBiYW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+}
+
+.vlog .slider-container .card .two {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://images.unsplash.com/photo-1548509925-0e7aa59c6bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1548509925-0e7aa59c6bc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmlyZHN8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+}
+
+.vlog .slider-container .card .three {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://images.unsplash.com/photo-1541274387095-12117e6099dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2xkJTIwaG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.unsplash.com/photo-1541274387095-12117e6099dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2xkJTIwaG91c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60) no-repeat center center;
+}
+
+.vlog .slider-container .card .four {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
+}
+
+.vlog .slider-container .card .four {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
 }
 
 * {

@@ -1,11 +1,13 @@
 .slider{
-    padding: 50px 0;
+    padding: 20px 0;
     background: rgba(0, 0, 0, 0.04);
     position: relative;
     h2{
         text-transform: capitalize;
         margin-bottom: 40px;
         padding-left: 5vw;
+        opacity: .8;
+        font-family: poppins;
     }
     .slider-container{
         padding: 0 5vw;
