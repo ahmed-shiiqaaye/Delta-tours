@@ -600,6 +600,12 @@ header .container .menu_icon {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .best .container .header {
+    text-align: left;
+  }
+}
+
 @media (max-width: 991px) {
   .best .container {
     width: 100%;
