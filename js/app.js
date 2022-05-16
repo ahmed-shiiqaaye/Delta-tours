@@ -25,3 +25,14 @@ myHeader.forEach((header,index)=>{
     }
     console.log(headerHeight);
 })
+
+let tabBtns = document.querySelectorAll('.btns-container .btn')
+
+tabBtns.forEach((tab, i)=>{
+    tab.addEventListener('click',()=>{
+        tabBtns.forEach(btn=>{
+            btn.classList.remove('active')
+        })
+        tabBtns[i].classList.add('active')   
+    })
+})

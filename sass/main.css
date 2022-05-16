@@ -105,6 +105,15 @@ header .container .menu_icon {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2f9bdb;
+  z-index: 99;
+}
+
 .showcase {
   width: 100%;
   height: 100vh;
@@ -1196,16 +1205,6 @@ header .container .menu_icon {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/photos/tour-boats-floating-on-the-indian-ocean-near-gateway-of-india-mumbai-picture-id1159381700?b=1&k=20&m=1159381700&s=170667a&w=0&h=LpX2FGbaATrwDwBflPmp7Qd5o-1_ntAsf7VcwP0SHak=) no-repeat center center/cover;
 }
 
-.travelers-2 .slider-container .card .five {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://images.unsplash.com/photo-1614056965546-42fbe24eb36c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2FzaG1pcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1614056965546-42fbe24eb36c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8a2FzaG1pcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60) no-repeat center center/cover;
-}
-
-.travelers-2 .slider-container .card .six {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.2))), url(https://media.istockphoto.com/photos/annapurna-base-camp-picture-id1354961265?b=1&k=20&m=1354961265&s=170667a&w=0&h=73QinmzYHuA-636UzQjt1bWX5awejqRG8bMhHqwdijs=) no-repeat center center/cover;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url(https://media.istockphoto.com/photos/annapurna-base-camp-picture-id1354961265?b=1&k=20&m=1354961265&s=170667a&w=0&h=73QinmzYHuA-636UzQjt1bWX5awejqRG8bMhHqwdijs=) no-repeat center center/cover;
-}
-
 .travelers-2 .slider-container .card .image-container {
   overflow: hidden;
   -webkit-box-sizing: border-box;
@@ -1305,9 +1304,180 @@ header .container .menu_icon {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
 }
 
-.vlog .slider-container .card .four {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/palace-staircase-picture-id183273572?b=1&k=20&m=183273572&s=170667a&w=0&h=9gwq8Eo_gN7R4X6UcAT0fyfmLaijYbF4fr0rFPoysxI=) no-repeat center center;
+.vlog .slider-container .card .san {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(https://media.istockphoto.com/photos/buggy-ride-on-the-dunes-in-genipabu-rio-grande-do-norte-picture-id1301067685?b=1&k=20&m=1301067685&s=170667a&w=0&h=DczWuTTnQSvcXsOWcqXh6qjEAokyKn6K9L0s8m9nG5A=) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/buggy-ride-on-the-dunes-in-genipabu-rio-grande-do-norte-picture-id1301067685?b=1&k=20&m=1301067685&s=170667a&w=0&h=DczWuTTnQSvcXsOWcqXh6qjEAokyKn6K9L0s8m9nG5A=) no-repeat center center;
+}
+
+.tab-box .container {
+  max-width: 1100px;
+}
+
+.tab-box .container .btns-container {
+  margin: 20px 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.tab-box .container .btns-container .btn {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 16px;
+  background: transparent;
+  color: black;
+}
+
+.tab-box .container .btns-container .btn.active {
+  background: #50c217;
+  color: white;
+}
+
+.tab-box .container .btns-container a {
+  color: #000;
+}
+
+.tab-box .container .content-container {
+  padding: 30px 0;
+}
+
+.tab-box .container .content-container .content {
+  padding: 30px 0;
+}
+
+.tab-box .container .content-container .content h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-family: poppins;
+  font-size: 27px;
+  opacity: .8;
+  padding-left: 20px;
+}
+
+.tab-box .container .content-container .content p.p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+  opacity: .7;
+  padding-left: 20px;
+}
+
+.tab-box .container .content-container .content .boxes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.tab-box .container .content-container .content .boxes .card {
+  position: relative;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tab-box .container .content-container .content .boxes .card .image {
+  height: 250px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+}
+
+.tab-box .container .content-container .content .boxes .card .image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tab-box .container .content-container .content .boxes .card .image h3 {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  text-transform: capitalize;
+  font-size: 23px;
+  color: white;
+}
+
+.tab-box .container .content-container .content .boxes .card .image::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.5)));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+}
+
+.tab-box .container .content-container .content .boxes .card .body {
+  padding: 20px 15px;
+}
+
+.tab-box .container .content-container .content .boxes .card .body p {
+  margin-bottom: 50px;
+  line-height: 1.6;
+  opacity: .7;
+}
+
+.tab-box .container .content-container .content .boxes .card .body button {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  padding: 6px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: transparent;
+  outline: none;
+  border: 0;
+  gap: 4px;
+  font-weight: bold;
+  color: #4444f4;
+}
+
+.tab-box .container .content-container .content .boxes .card .body button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .tab-box .container .content-container .content .boxes {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .tab-box .container {
+    max-width: 1100px;
+  }
+  .tab-box .container .btns-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 * {
