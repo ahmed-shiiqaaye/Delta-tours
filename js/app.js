@@ -23,3 +23,17 @@ tabBtns.forEach((tab, i)=>{
         tabBtns[i].classList.add('active')   
     })
 })
+
+
+let navAngerTag = document.querySelectorAll('.nav_link');
+let navLinks = document.querySelectorAll('.nav_links');
+let menuIcon = document.querySelectorAll('.menu_icon');
+
+menuIcon.forEach(menu=>{
+    menu.addEventListener('click',()=>{
+       navLinks.forEach(eachNavLink =>{
+           eachNavLink.classList.toggle('active')
+       })
+        // alert('wow')
+    })
+})

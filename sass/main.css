@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Josefin+Sans&family=Nunito&family=Oswald:wght@300;400;500;700&family=Poppins:wght@400;500&display=swap");
 header {
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: 15vh;
   width: 100%;
   z-index: 99;
   background: rgba(27, 125, 190, 0.492);
@@ -10,6 +8,8 @@ header {
 }
 
 header .container {
+  overflow: hidden;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,11 +98,22 @@ header .container .nav_links ul li a:hover {
 }
 
 header .container .nav_links ul li .active {
-  color: #0adccb;
+  color: #1a031c;
+}
+
+header .container .nav_links .nav_icons {
+  display: none;
 }
 
 header .container .menu_icon {
   display: none;
+  color: white;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+header .container .menu_icon i {
+  pointer-events: none;
 }
 
 .fixed {
@@ -114,9 +125,106 @@ header .container .menu_icon {
   z-index: 99;
 }
 
+@media (max-width: 768px) {
+  header .container .search_icon {
+    display: none;
+  }
+  header .container .menu_icon {
+    display: block;
+  }
+  header .container .nav_links {
+    position: absolute;
+    top: 15vh;
+    left: -100%;
+    background: #2f9cdbf8;
+    height: 85vh;
+    padding: 10px;
+    width: 70%;
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+  }
+  header .container .nav_links ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header .container .nav_links ul li {
+    padding: 10px;
+  }
+  header .container .nav_links ul li:hover {
+    background: rgba(250, 250, 250, 0.3);
+  }
+  header .container .nav_links ul li a .active {
+    color: palevioletred;
+  }
+  header .container .nav_links .nav_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+  }
+  header .container .nav_links .nav_icons a {
+    background: #000;
+    height: 40px;
+    width: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.57);
+  }
+  header .container .nav_links .nav_icons a:first-child {
+    background: #1877f2;
+  }
+  header .container .nav_links .nav_icons a:nth-child(2) {
+    background: #1da1f2;
+  }
+  header .container .nav_links .nav_icons a:nth-child(3) {
+    background: #f00073;
+  }
+  header .container .nav_links .nav_icons a:nth-child(4) {
+    background: -webkit-gradient(linear, left top, right bottom, from(#ff0000), to(black));
+    background: linear-gradient(to bottom right, #ff0000, black);
+  }
+  header .container .nav_links .nav_icons a:nth-child(5) {
+    background: yellow;
+    color: #000;
+  }
+  header .container .nav_links .nav_icons a:last-child {
+    background: black;
+  }
+  header .container .active {
+    left: 0;
+  }
+}
+
 .showcase {
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FwZSUyMHRvd258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60);
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1585061528750-3baca2cb6a10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FwZSUyMHRvd258ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60);
   background-position: center;
@@ -206,9 +314,8 @@ header .container .menu_icon {
     font-size: 40px;
   }
   .showcase .container .btn {
-    padding: 16px 30px;
+    padding: 15px 30px;
     border-radius: 0;
-    color: #000;
   }
 }
 
@@ -931,8 +1038,12 @@ header .container .menu_icon {
   left: 5px;
 }
 
-.destinations {
-  background: url(https://images.unsplash.com/photo-1614088459293-5669fadc3448?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) no-repeat center center/cover;
+.ds-showcase {
+  height: 70vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://media.istockphoto.com/photos/driving-through-the-forest-picture-id1303391854?b=1&k=20&m=1303391854&s=170667a&w=0&h=tXcqE307kIRXE3Gl_2EaWJQc_YUd-RFAUANi8HZuJwk=);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://media.istockphoto.com/photos/driving-through-the-forest-picture-id1303391854?b=1&k=20&m=1303391854&s=170667a&w=0&h=tXcqE307kIRXE3Gl_2EaWJQc_YUd-RFAUANi8HZuJwk=);
+  background-position: center;
+  background-size: cover;
 }
 
 .destinations .container .input {
@@ -1364,6 +1475,20 @@ header .container .menu_icon {
   line-height: 1.6;
 }
 
+@media (max-width: 768px) {
+  .destinations .container h1 {
+    font-size: 32px;
+  }
+}
+
+.continents {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(https://media.istockphoto.com/photos/lake-in-the-shape-of-the-worlds-continents-in-the-middle-of-untouched-picture-id1342229191?b=1&k=20&m=1342229191&s=170667a&w=0&h=swcdZlnGAdTuLsuYgPgVmpEVmFmKpgrSCnqWsc5l6vI=);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://media.istockphoto.com/photos/lake-in-the-shape-of-the-worlds-continents-in-the-middle-of-untouched-picture-id1342229191?b=1&k=20&m=1342229191&s=170667a&w=0&h=swcdZlnGAdTuLsuYgPgVmpEVmFmKpgrSCnqWsc5l6vI=);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
 .tab-box .container {
   max-width: 1100px;
 }
@@ -1536,6 +1661,12 @@ header .container .menu_icon {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .continents .container .text h1 {
+    font-size: 32px;
   }
 }
 

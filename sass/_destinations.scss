@@ -1,5 +1,11 @@
+.ds-showcase{
+    height: 70vh;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),
+    url(https://media.istockphoto.com/photos/driving-through-the-forest-picture-id1303391854?b=1&k=20&m=1303391854&s=170667a&w=0&h=tXcqE307kIRXE3Gl_2EaWJQc_YUd-RFAUANi8HZuJwk=);
+    background-position: center;
+    background-size: cover;
+}
 .destinations{
-    background: url(https://images.unsplash.com/photo-1614088459293-5669fadc3448?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80)  no-repeat center center/cover;
     .container{
 
         .input{
@@ -330,4 +336,11 @@
 .slider p{
     opacity: .8;
     line-height: 1.6;
+}
+@media (max-width:768px) {
+    .destinations .container{
+        h1{
+            font-size: 32px;
+        }
+    }
 }
