@@ -1080,6 +1080,22 @@ header .container .menu_icon i {
   font-size: 16px;
 }
 
+.destinations .container .input input ::-webkit-input-placeholder {
+  text-transform: capitalize;
+}
+
+.destinations .container .input input :-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.destinations .container .input input ::-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.destinations .container .input input ::placeholder {
+  text-transform: capitalize;
+}
+
 .destinations .container .input i {
   position: absolute;
   right: 15px;
