@@ -166,6 +166,7 @@
     background: white;
     .slider-title{
         padding-left: 5vw;
+        padding-right: 5vw;
         margin-bottom: 15px;
         h2{
             margin: 0;
@@ -325,4 +326,8 @@
             }
         }
     }
+}
+.slider p{
+    opacity: .8;
+    line-height: 1.6;
 }

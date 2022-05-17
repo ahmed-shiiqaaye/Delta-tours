@@ -82,3 +82,11 @@ header{
     background:#2f9bdb;
     z-index: 99;
 }
+
+@media (max-width:768px) {
+    header{
+        .container{
+            flex-direction: column;
+        }
+    }
+}

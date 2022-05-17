@@ -205,6 +205,49 @@ header .container .menu_icon {
   .showcase .container h1 {
     font-size: 40px;
   }
+  .showcase .container .btn {
+    padding: 16px 30px;
+    border-radius: 0;
+    color: #000;
+  }
+}
+
+@media (max-width: 568px) {
+  .showcase .container h1 {
+    font-size: 35px;
+    margin-top: 30px;
+  }
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 99;
+  background: transparent;
+  border: 1px solid black;
+  height: 50px;
+  width: 30px;
+}
+
+.go-to-top a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.go-to-top a i {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .Cards {
@@ -1115,6 +1158,7 @@ header .container .menu_icon {
 
 .travelers .slider-title {
   padding-left: 5vw;
+  padding-right: 5vw;
   margin-bottom: 15px;
 }
 
@@ -1315,6 +1359,11 @@ header .container .menu_icon {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/buggy-ride-on-the-dunes-in-genipabu-rio-grande-do-norte-picture-id1301067685?b=1&k=20&m=1301067685&s=170667a&w=0&h=DczWuTTnQSvcXsOWcqXh6qjEAokyKn6K9L0s8m9nG5A=) no-repeat center center;
 }
 
+.slider p {
+  opacity: .8;
+  line-height: 1.6;
+}
+
 .tab-box .container {
   max-width: 1100px;
 }
@@ -1346,6 +1395,10 @@ header .container .menu_icon {
 .tab-box .container .btns-container .btn.active {
   background: #50c217;
   color: white;
+}
+
+.tab-box .container .btns-container .btn:hover {
+  border: 1px solid #080002;
 }
 
 .tab-box .container .btns-container a {

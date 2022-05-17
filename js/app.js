@@ -13,21 +13,8 @@ sliderContainer.forEach((slider,i)=>{
     })
 })
 
-let myHeader = document.querySelectorAll('header.header');
-
-myHeader.forEach((header,index)=>{
-    let headerHeight = header.getBoundingClientRect().height;
-    let windowHeight = window.pageYOffset;
-    if(windowHeight > headerHeight){
-        header.classList.add('fixed')
-    }else{
-        header.classList.remove('fixed')
-    }
-    console.log(headerHeight);
-})
 
 let tabBtns = document.querySelectorAll('.btns-container .btn')
-
 tabBtns.forEach((tab, i)=>{
     tab.addEventListener('click',()=>{
         tabBtns.forEach(btn=>{

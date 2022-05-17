@@ -19,6 +19,9 @@
                     background: rgb(80, 194, 23);
                     color: white;
                 }
+                &:hover{
+                    border: 1px solid rgb(8, 0, 2);
+                }
             }
             a{
                 color: #000;
