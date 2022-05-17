@@ -1775,6 +1775,7 @@ header .container .menu_icon i {
 
 .contact_form .container .form {
   padding: 20px;
+  padding-bottom: 30px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -1872,6 +1873,9 @@ header .container .menu_icon i {
 }
 
 @media (max-width: 768px) {
+  .contact_form .container .form {
+    padding: 0;
+  }
   .contact_form .container .form .divide {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
