@@ -3,7 +3,7 @@ header{
     width: 100%;
     z-index: 99;
     background: rgba(27, 125, 190, 0.492);
-    border-bottom: 1px solid rgba(250,250,250,.3);
+    // border-bottom: 1px solid rgba(250,250,250,.3);
     .container{
         overflow: hidden;
         height: 100%;
@@ -58,7 +58,7 @@ header{
                 padding: 0 10px;
                 a{
                     color: white;
-                    font-family: cursive;
+                    font-family: poppins;
                     &:hover{
                         font-weight: bold;
                     }
@@ -107,17 +107,17 @@ header{
             .nav_links{
                 position: absolute;
                 top:15vh;
-                left: -100%;
+                left: -110%;
                 background:#2f9cdbf8;
                 height: 85vh;
                 padding: 10px;
-                width: 70%;
+                width: 100%;
                 z-index: 99;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                transition: all .3s cubic-bezier(0.39, 0.575, 0.565, 1);
+                transition: all .35s cubic-bezier(0.39, 0.575, 0.565, 1);
                 ul{
                     flex-direction: column;
                     width: 100%;

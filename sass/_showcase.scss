@@ -74,7 +74,13 @@
 }
 @media (max-width:568px) {
     .showcase .container h1{
-        font-size: 35px;
+        font-size: 33px;
+        margin-top: 30px;
+    }
+}
+@media (max-width:468px) {
+    .showcase .container h1{
+        font-size:28px;
         margin-top: 30px;
     }
 }
