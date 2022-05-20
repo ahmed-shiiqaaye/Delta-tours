@@ -290,13 +290,12 @@ header .container .menu_icon i {
 
 .showcase .btn {
   padding: 20px 38px;
-  font-size: 15px;
+  font-size: 16px;
   text-transform: capitalize;
   margin-top: 20px;
   color: #0a438b;
   background: white;
   border: 0;
-  border-radius: 5px;
 }
 
 @media (max-width: 968px) {
